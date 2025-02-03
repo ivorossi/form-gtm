@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './components/Form/Form';
 
 const App: React.FC = () => {
-  const apiEndpoint = 'TU_API_ENDPOINT'; 
+  const apiEndpoint = 'https://kaniuleads-api-913425272782.us-central1.run.app/data'; 
 
 return (
     <div>
