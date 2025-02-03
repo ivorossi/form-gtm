@@ -52,7 +52,7 @@ const Form: React.FC<FormProps> = ({ apiEndpoint }) => {
       <Input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
 
       <Label htmlFor="documentNumber">Document Number:</Label>
-      <Input type="text" id="documentNumber" name="documentNumber" value={formData.documentNumber} onChange={handleChange} required />
+      <Input type="text" id="dni" name="documentNumber" value={formData.documentNumber} onChange={handleChange} required />
 
       <Label htmlFor="phone">Phone:</Label>
       <Input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} required />
