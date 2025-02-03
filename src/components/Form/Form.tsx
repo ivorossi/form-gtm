@@ -5,7 +5,7 @@ import { FormData, FormProps } from './Form.types';
 const Form: React.FC<FormProps> = ({ apiEndpoint }) => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
-    documentNumber: '',
+    dni: '',
     phone: '',
     email: '',
   });
